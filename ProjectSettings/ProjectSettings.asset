@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 00000000000000000000000000000000
+  productGUID: 0aca8acfdce881040b4735cd624a9580
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -863,7 +863,8 @@ PlayerSettings:
   metroDefaultTileSize: 1
   metroTileForegroundText: 2
   metroTileBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628, a: 0}
-  metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628, a: 1}
+  metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628,
+    a: 1}
   metroSplashScreenUseBackgroundColor: 0
   syncCapabilities: 0
   platformCapabilities: {}
@@ -927,7 +928,7 @@ PlayerSettings:
   cloudProjectId: 5f3a2be6-a02d-48c9-8b0d-57862ddf6f87
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 2d-extras
+  projectName: OOP
   organizationId: dbalstjd30
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
