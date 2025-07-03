@@ -26,6 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Personal/Field.unity
     guid: 16fe3efce0da49d41b6aef13531c82de
+  - enabled: 1
+    path: Assets/Personal/Platformer.unity
+    guid: cff6408bd3ea6604d89593408e148bac
+  - enabled: 1
+    path: Assets/Personal/TopDown.unity
+    guid: 998aaaa6527d5a3479ea3f656a32e8d0
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: e4de31fa5b0be47d0a071cc43608d74f,
       type: 2}

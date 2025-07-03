@@ -8,10 +8,7 @@ using System.IO;
 
 public class MainManager : MonoBehaviour
 {
-    public static MainManager Instance{ get; private set; }
-
-    public GameObject ScoreBoard;
-    public TextMeshProUGUI PlatScore, TopScore;
+    public static MainManager Instance { get; private set; }
 
     string path = Application.dataPath + "/save.json";
 
@@ -33,7 +30,7 @@ public class MainManager : MonoBehaviour
         SceneManager.LoadScene("Field");
     }
 
-    public void ScoreButton()
+    public void ScoreButton(GameObject ScoreBoard, TextMeshProUGUI PlatScore, TextMeshProUGUI TopScore)
     {
         ScoreBoard.SetActive(true);
 
@@ -42,7 +39,7 @@ public class MainManager : MonoBehaviour
         TopScore.text = "TopDown\n" + data._TopScore;
     }
 
-    public void CloseButton()
+    public void CloseButton(GameObject ScoreBoard)
     {
         ScoreBoard.SetActive(false);
     }

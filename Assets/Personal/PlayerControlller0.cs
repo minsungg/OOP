@@ -1,10 +1,10 @@
 using UnityEngine;
 
+using UnityEngine.SceneManagement;
+
 public class PlayerControlller0 : MonoBehaviour
 {
-
-    private float verticalInput, horizontalInput;
-    Rigidbody2D rb;
+    private Rigidbody2D rb;
 
     private float speed;
     private Vector2 velocity;
@@ -21,12 +21,23 @@ public class PlayerControlller0 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        verticalInput = Input.GetAxisRaw("Vertical");
-        horizontalInput = Input.GetAxisRaw("Horizontal");
-
-        velocity.x = horizontalInput;
-        velocity.y = verticalInput;
+        velocity.x = Input.GetAxisRaw("Horizontal");
+        velocity.y = Input.GetAxisRaw("Vertical");
 
         rb.linearVelocity = velocity.normalized * speed;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.CompareTag("TopDoor"))
+        {
+            SceneManager.LoadScene("TopDown");
+        } else if(other.CompareTag("ExitDoor"))
+        {
+            SceneManager.LoadScene("Main");
+        } else
+        {
+            SceneManager.LoadScene("Platformer");
+        }
     }
 }

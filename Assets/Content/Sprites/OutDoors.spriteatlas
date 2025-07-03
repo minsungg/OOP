@@ -50,21 +50,6 @@ SpriteAtlas:
     isAtlasV2: 0
     cachedData: {fileID: 0}
     packedSpriteRenderDataKeys:
-    - f790b7e1725518a40a16b10db8c5d37a: 21300016
-    - f790b7e1725518a40a16b10db8c5d37a: 21300018
-    - f790b7e1725518a40a16b10db8c5d37a: 21300008
-    - f790b7e1725518a40a16b10db8c5d37a: 21300010
-    - f790b7e1725518a40a16b10db8c5d37a: 21300012
-    - f790b7e1725518a40a16b10db8c5d37a: 21300014
-    - f790b7e1725518a40a16b10db8c5d37a: 21300002
-    - f790b7e1725518a40a16b10db8c5d37a: 21300004
-    - f790b7e1725518a40a16b10db8c5d37a: 21300006
-    - f790b7e1725518a40a16b10db8c5d37a: 21300030
-    - f790b7e1725518a40a16b10db8c5d37a: 21300028
-    - f790b7e1725518a40a16b10db8c5d37a: 21300026
-    - f790b7e1725518a40a16b10db8c5d37a: 21300024
-    - f790b7e1725518a40a16b10db8c5d37a: 21300022
-    - f790b7e1725518a40a16b10db8c5d37a: 21300020
     - b7a090a24699a2a49a21e3b918e3f8f7: 21300000
     - b7a090a24699a2a49a21e3b918e3f8f7: 21300002
     - 0b5499d2b88572740a751b70f614266f: 21300024
@@ -205,21 +190,6 @@ SpriteAtlas:
     - c0556daf5b8da764d9210db134663df0: 21300000
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300016, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
-  - {fileID: 21300018, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
-  - {fileID: 21300008, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
-  - {fileID: 21300010, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
-  - {fileID: 21300012, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
-  - {fileID: 21300014, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
-  - {fileID: 21300002, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
-  - {fileID: 21300004, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
-  - {fileID: 21300006, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
-  - {fileID: 21300030, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
-  - {fileID: 21300028, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
-  - {fileID: 21300026, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
-  - {fileID: 21300024, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
-  - {fileID: 21300022, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
-  - {fileID: 21300020, guid: f790b7e1725518a40a16b10db8c5d37a, type: 3}
   - {fileID: 21300000, guid: b7a090a24699a2a49a21e3b918e3f8f7, type: 3}
   - {fileID: 21300002, guid: b7a090a24699a2a49a21e3b918e3f8f7, type: 3}
   - {fileID: 21300024, guid: 0b5499d2b88572740a751b70f614266f, type: 3}
@@ -359,21 +329,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 25e000cd86b39f24f881bc45fff6cafc, type: 3}
   - {fileID: 21300000, guid: c0556daf5b8da764d9210db134663df0, type: 3}
   m_PackedSpriteNamesToIndex:
-  - Ground_HighGrass_8
-  - Ground_HighGrass_9
-  - Ground_HighGrass_4
-  - Ground_HighGrass_5
-  - Ground_HighGrass_6
-  - Ground_HighGrass_7
-  - Ground_HighGrass_1
-  - Ground_HighGrass_2
-  - Ground_HighGrass_3
-  - Ground_HighGrass_15
-  - Ground_HighGrass_14
-  - Ground_HighGrass_13
-  - Ground_HighGrass_12
-  - Ground_HighGrass_11
-  - Ground_HighGrass_10
   - Small Chest Closed
   - Small Chest Open
   - Ground_Dirt_12
