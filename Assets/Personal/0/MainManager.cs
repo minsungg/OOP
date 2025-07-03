@@ -51,8 +51,11 @@ public class MainManager : MonoBehaviour
 
     }
 
-    public void SaveData(ScoreData data)
+    public void SaveData(int p, int t)
     {
+        ScoreData data = new ScoreData();
+        data._PlatScore = p;
+        data._TopScore = t;
         string json = JsonUtility.ToJson(data, true);
         File.WriteAllText(path, json);
     }

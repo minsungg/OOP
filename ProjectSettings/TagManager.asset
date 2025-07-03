@@ -15,6 +15,7 @@ TagManager:
   - ExitDoor
   - PlatDoor
   - TopDoor
+  - bullet
   layers:
   - Default
   - TransparentFX

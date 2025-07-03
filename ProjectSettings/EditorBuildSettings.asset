@@ -21,10 +21,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Core.unity
     guid: 82086347ac667a14a9a77f7987a3ba4b
   - enabled: 1
-    path: Assets/Personal/Main.unity
+    path: Assets/Personal/0/Main.unity
     guid: d397082e1d4c44f4dbf5b0c5cc3ecfba
   - enabled: 1
-    path: Assets/Personal/Field.unity
+    path: Assets/Personal/0/Field.unity
     guid: 16fe3efce0da49d41b6aef13531c82de
   - enabled: 1
     path: Assets/Personal/Platformer.unity
