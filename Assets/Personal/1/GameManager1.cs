@@ -34,9 +34,9 @@ public class GameManager1 : MonoBehaviour
     {
         int p = GameObject.Find("MainManager").GetComponent<MainManager>().LoadData()._PlatScore;
         int t = GameObject.Find("MainManager").GetComponent<MainManager>().LoadData()._TopScore;
-        if (p < score)
+        if (t < score)
         {
-            GameObject.Find("MainManager").GetComponent<MainManager>().SaveData(score, t);
+            GameObject.Find("MainManager").GetComponent<MainManager>().SaveData(p, score);
         }
         SceneManager.LoadScene("Field");
     }
